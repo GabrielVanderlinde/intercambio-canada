@@ -18,10 +18,10 @@ public class ViagemEntity {
     private Long id;
 
     @Column(name = "cidadeDestino")
-    String cidadeDestino;
+    private String cidadeDestino;
 
     @Column(name = "provincia")
-    String provincia;
+    private String provincia;
 
     @Column(name = "dataEmbarque")
     private LocalDate dataEmbarque;
